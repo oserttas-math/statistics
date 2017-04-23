@@ -1,4 +1,6 @@
-// statistics package that provides some useful statistics functions
+// Package statistics provides some useful statistical functions.
+// A simple and useful explanation about the methods can be found in the following link:
+// http://www.cs.otago.ac.nz/cosc453/student_tutorials/principal_components.pdf
 package statistics
 
 import (
@@ -6,7 +8,7 @@ import (
 	"math"
 )
 
-// Calculate the mean of a slice (x)
+// Mean calculates the mean of a slice (x)
 func Mean(x []float64) (mean float64) {
 	// Avoid divide by zero
 	if len(x) == 0 {
@@ -21,7 +23,7 @@ func Mean(x []float64) (mean float64) {
 	return
 }
 
-// Calculate the standard deviation of a sample (n - 1)
+// StandardDeviation calculates the standard deviation of a sample (n - 1)
 func StandardDeviation(x []float64) (sd float64, err error) {
 	// Check if the slice is not empty
 	if len(x) <= 1 {
@@ -45,7 +47,7 @@ func StandardDeviation(x []float64) (sd float64, err error) {
 	return
 }
 
-// Calculate the variance
+// Variance calculates the variance (sd^2)
 func Variance(x []float64) (variance float64, err error) {
 	// Calculate the standard deviation
 	sd, err := StandardDeviation(x)
@@ -60,7 +62,7 @@ func Variance(x []float64) (variance float64, err error) {
 	return
 }
 
-// Calculate the covariance by the formula COV(X,Y) = sum((Xi-Xm)(Yi-Ym)) / (n-1)
+// Covariance calculates the covariance by the formula COV(X,Y) = sum((Xi-Xm)(Yi-Ym)) / (n-1)
 func Covariance(x []float64, y []float64) (result float64, err error) {
 	// Check if we have two valid slices
 	if len(x) != len(y) {
@@ -86,7 +88,7 @@ func Covariance(x []float64, y []float64) (result float64, err error) {
 	return
 }
 
-// Calculate the covariance matrix
+// CovarianceMatrix calculates the covariance matrix
 func CovarianceMatrix(matrix [][]float64) (result [][]float64, err error) {
 	// Check if the matrix has at least one row
 	if len(matrix) == 0 {
