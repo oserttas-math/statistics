@@ -8,13 +8,23 @@ Statistics
 Go package that provides some statistical functions.
 
 - Mean
- - ![Mean](formulas/mean.png)
+
+![Mean](formulas/mean.png)
+
 - Standard Deviation
- - ![Mean](formulas/sd.png)
+
+![Mean](formulas/sd.png)
+
 - Variance
- - ![Mean](formulas/variance.png)
+
+![Mean](formulas/variance.png)
+
 - Covariance
- - ![Mean](formulas/covariance.png)
+
+![Mean](formulas/covariance.png)
+
 - Covariance Matrix
- - Example covariance matrix 3x3:
- - ![Mean](formulas/covMatrix.png)
+
+Example covariance matrix 3x3:
+
+![Mean](formulas/covMatrix.png)
