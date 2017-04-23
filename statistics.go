@@ -109,13 +109,6 @@ func CovarianceMatrix(matrix [][]float64) (result [][]float64, err error) {
 		// For each row calculate the covariance (this is the second dimension)
 		for tempRow := 0; tempRow < len(matrix); tempRow++ {
 
-			// If the rows have different number of columns return an error
-			if len(matrix[row]) != len(matrix[tempRow]) {
-				result = nil // We need to set the result as nil
-				err = errors.New("Make sure all rows have the same number of columns")
-				return
-			}
-
 			// Calculate the covariance of the two rows/dimensions
 			covResult, covError := Covariance(matrix[row], matrix[tempRow])
 
