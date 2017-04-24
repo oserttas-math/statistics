@@ -10,6 +10,12 @@ Statistics
 
 Go package that provides some statistical functions.
 
+Installation
+----
+
+Use:
+
+    $ go get github.com/kelvins/statistics
 
 - Mean
 
@@ -32,3 +38,13 @@ Go package that provides some statistical functions.
 Example covariance matrix 3x3:
 
 ![Mean](formulas/covMatrix.png)
+
+License
+----
+
+This project was created under the [MIT license][1], feel free to contribute in any way.
+
+
+  [1]: LICENSE
+  [2]: https://godoc.org/github.com/kelvins/statistics
+  [3]: https://godoc.org/
