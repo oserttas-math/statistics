@@ -17,6 +17,9 @@ Use:
 
     $ go get github.com/kelvins/statistics
 
+Methods
+----
+
 - Mean
 
 ![Mean](formulas/mean.png)
@@ -39,11 +42,25 @@ Example covariance matrix 3x3:
 
 ![Mean](formulas/covMatrix.png)
 
+Documentation
+----
+
+You can access the [documentation][2] by the [GoDoc][3] website.
+
 License
 ----
 
 This project was created under the [MIT license][1], feel free to contribute in any way.
 
+Contributing
+----
+
+1. Create an issue (optional)
+2. Fork the repo
+3. Make your changes
+4. Commit your changes (`git commit -am 'Some cool feature'`)
+5. Push to the branch (`git push origin master`)
+6. Create a new Pull Request
 
   [1]: LICENSE
   [2]: https://godoc.org/github.com/kelvins/statistics
