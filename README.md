@@ -22,25 +22,25 @@ Methods
 
 - Mean
 
-![Mean](formulas/mean.png)
+![Mean](http://i.imgur.com/nepiG0s.png)
 
 - Standard Deviation
 
-![Mean](formulas/sd.png)
+![Mean](http://i.imgur.com/A6nUpGU.png)
 
 - Variance
 
-![Mean](formulas/variance.png)
+![Mean](http://i.imgur.com/qZu5to3.png)
 
 - Covariance
 
-![Mean](formulas/covariance.png)
+![Mean](http://i.imgur.com/Wt1c76u.png)
 
 - Covariance Matrix
 
 Example covariance matrix 3x3:
 
-![Mean](formulas/covMatrix.png)
+![Mean](http://i.imgur.com/H1xM95q.png)
 
 Documentation
 ----
