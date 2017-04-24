@@ -60,6 +60,11 @@ This project was created under the [MIT license][1], feel free to contribute in 
 5. Push to the branch (`git push origin master`)
 6. Create a new Pull Request
 
+## References
+
+**Lindsay I Smith**. A tutorial on Principal Components Analysis. 2002. Link: [http://www.cs.otago.ac.nz/cosc453/student_tutorials/principal_components.pdf][4]
+
   [1]: LICENSE
   [2]: https://godoc.org/github.com/kelvins/statistics
   [3]: https://godoc.org/
+  [4]: http://www.cs.otago.ac.nz/cosc453/student_tutorials/principal_components.pdf
