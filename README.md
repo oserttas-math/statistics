@@ -24,7 +24,7 @@ Use:
 </p>
 
 - **Standard Deviation**: The Standard Deviation (SD) of a data set is a measure of how spread out the data is. Basically, the standard deviation is defined as “the average distance from the mean of the data set to a point”. As Smith explains, the way to calculate it is to compute the squares of the distance from each data point to the mean of the set, add them all up,
-divide by `(n - 1)`, and take the positive square root.
+divide by `(n - 1)`, and take the positive square root.
 
 <p align="center">
   <img src="http://i.imgur.com/A6nUpGU.png" alt="Standard Deviation">
