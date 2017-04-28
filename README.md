@@ -3,9 +3,9 @@
 [![Build Status](https://travis-ci.org/kelvins/statistics.svg?branch=master)](https://travis-ci.org/kelvins/statistics)
 [![Build Status](https://circleci.com/gh/kelvins/statistics.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/kelvins/statistics)
 [![Coverage Status](https://coveralls.io/repos/github/kelvins/statistics/badge.svg?branch=master)](https://coveralls.io/github/kelvins/statistics?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/kelvins/statistics)](https://goreportcard.com/report/github.com/kelvins/statistics)
 [![GoDoc](https://godoc.org/github.com/kelvins/statistics?status.svg)](https://godoc.org/github.com/kelvins/statistics)
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/kelvins/statistics)](https://goreportcard.com/report/github.com/kelvins/statistics)
 
 Go package that provides some statistical functions.
 
